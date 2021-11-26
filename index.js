@@ -193,7 +193,7 @@ autoketik = false
 autoregister = setting.user_register
 
 img = setting.img
-baper = 'CREATOR ZEVIONA OFC'
+baper = 'Creator Zevionaofc'
 apiku = 'https://bit.ly/3l800hO'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
@@ -3292,7 +3292,7 @@ break
 		            imageToBase64(pjr)
 		            .then((response) => {
 		            media =  Buffer.from(response, 'base64');
-		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa sub YT : ZEVIONA OFC'})
+		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Subscribe : Zevionaofc'})
 		            }
 		            )
 		            .catch((error) => {
