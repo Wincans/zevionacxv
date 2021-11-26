@@ -2,7 +2,7 @@
 const gcbotwa = () =>{
 	return`Join Aja Semua Fitur Bot Bisa Digunakan !
 
-1. *Z E V I O N A  O F C*
+1. *Zevionaofc*
 _https://chat.whatsapp.com/CBh1ILF373u3aTtvtSv1li_
 
 Jika ada link yang ke reset, silahkan hubungi
