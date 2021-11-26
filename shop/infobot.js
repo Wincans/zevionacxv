@@ -22,7 +22,14 @@ return `ℒ⃝👾 *B O T  S T A T I S T I C*
 
 ℒ⃝👨‍💻 *C O N N E C T  W I T H  M E*
 
-♏ WhatsApp : wa.me/12312996002
+⛎ Api : api.alphabot.herokuapp.com
+♈ YouTube : youtube.com/c/zevionaofc
+♉ Github : zevionaofc.github.io
+♊ Instagram : instagram.com/zevionaofc
+♋ Tiktok : tiktok.com/@zevionaofc
+♌ Telegram : t.me/zevionaofc
+♎ Ch Telegram : t.me/zeviona_ofc
+♏ WhatsApp : bit.ly/3CVktfU
 `}
 
 exports.infobot = infobot
