@@ -193,8 +193,8 @@ autoketik = false
 autoregister = setting.user_register
 
 img = setting.img
-baper = 'SUB YT ZEEONE OFC'
-apiku = 'https://youtu.be/2rWbjrDIAyA'
+baper = 'CREATOR ZEVIONA OFC'
+apiku = 'wa.me/12312996002'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -2246,7 +2246,7 @@ ini_anu =`𝙃𝙚𝙡𝙡𝙤 𝙄'𝙢 𝙪𝙨𝙚𝙧𝙗𝙤𝙩 👋
 *〽️ Owner : ${isOwner ? 'True' : `False`}*
 `
 if(menusimple == false){
-sendButDoc(from, ini_anu, `𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧'𝐭 𝐬𝐩𝐚𝐦 𝐛𝐨𝐭, 𝐩𝐚𝐮𝐬𝐞 𝟓 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐩𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.\n𝐓𝐡𝐚𝐧𝐤𝐬!`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `𝐏??𝐞𝐚𝐬𝐞 𝐝𝐨𝐧'𝐭 𝐬𝐩𝐚𝐦 𝐛𝐨𝐭, 𝐩𝐚𝐮𝐬𝐞 𝟓 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐩𝐞𝐫 𝐜𝐨𝐦𝐦𝐚𝐧𝐝.\n𝐓𝐡𝐚𝐧𝐤𝐬!`, sender, koko, ini_mark)
 } else if(menusimple = true){ 
 let content1 = fs.readFileSync(`image/${thumbnail}`)
 const media1 = await alpha.prepareMessage(from, content1, MessageType.location, {thumbnail: content1})
@@ -2997,7 +2997,7 @@ case 'bcgif':
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: OWNER ALPHABOT;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -3292,7 +3292,7 @@ break
 		            imageToBase64(pjr)
 		            .then((response) => {
 		            media =  Buffer.from(response, 'base64');
-		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa sub YT : ZEEONE OFC'})
+		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa sub YT : ZEVIONA OFC'})
 		            }
 		            )
 		            .catch((error) => {
@@ -3701,7 +3701,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'```Nih kak, jgn lupa Support YT : ZEEONE OFC```')
+					fakethumb(buffer,'```Nih kak, jgn lupa Support YT : ZEVIONA OFC```')
 					fs.unlinkSync(ran)
 					})
 					break
@@ -6160,7 +6160,7 @@ break
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: OWNER ALPHABOT;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -6205,7 +6205,7 @@ if (subscribezeeoneofc == "ownerku"){
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
 					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: OWNER ALPHABOT;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
