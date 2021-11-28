@@ -193,7 +193,7 @@ autoketik = false
 autoregister = setting.user_register
 
 img = setting.img
-baper = 'Creator Zevionaofc'
+baper = 'By Zevionaofc'
 apiku = 'https://bit.ly/3l800hO'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
